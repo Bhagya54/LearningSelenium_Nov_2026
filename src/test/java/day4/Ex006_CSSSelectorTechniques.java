@@ -36,6 +36,11 @@ input[aria-label$='Search']
 5.attribute contains some attribute value
 tagname[att_name*='att_value']
 input[aria-label*='Sea']
+
+6. Parent - child
+form[id='login_form']>div>div:last-child
+form[id='login_form']>div>div:first-child
+form[id='login_form']>div>div:nth-child(2)
  */
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();

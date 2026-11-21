@@ -34,6 +34,11 @@ id="_R_c9l6neappb6amH1_"
 id=_R_cdl6neappb6amH1_
 //input[contains(@id,'6amH1_')]
 //input[contains(@name,'ema')]
+
+7. Parent - child
+//form[@id='login_form']/div/div[1]/div/div[1]/div/div/div/input
+
+///
 	 */
 
 	public static void main(String[] args) {
